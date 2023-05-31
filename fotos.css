@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{margin: 0;
+padding: 0;
+background-color: #212121;
+list-style: none;
+text-decoration: none;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+ul{
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "Kdam Thmor Pro" , sans-serif;
+    background-color: black;
+}
+
+li:hover{
+    color: red;
+}
+
+.fotos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-left:80px ;
+}
+
+.ft{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.ft:hover{
+    transform: scale(1.02);
+}
+
+.foto-1{
+    background-image: url("https://i.pinimg.com/236x/63/02/7a/63027a0889d4c700edf701e656f58554.jpg");
+}
+
+.foto-2{
+    background-image: url("https://i.pinimg.com/236x/37/a3/5a/37a35a151966dbf6fc6e7a7146d1eefa.jpg");
+}
+
+.foto-3{
+    background-image: url("https://i.pinimg.com/236x/3f/e2/c1/3fe2c1145b941eed0424322cc7446aba.jpg");
+}
+
+.foto-4{
+    background-image: url("https://i.pinimg.com/236x/e1/82/81/e18281a5e181855db1b670fc6578391e.jpg");
+}
+
+.foto-5{
+    background-image: url("https://i.pinimg.com/236x/01/57/e4/0157e432841566b6591e4f7b8a264d98.jpg");
+}
+
+.foto-6{
+    background-image: url("https://i.pinimg.com/236x/f3/86/9f/f3869fd66fd45ff60a6b4a9ef82872b9.jpg");
+}
